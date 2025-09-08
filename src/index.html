@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coocique NG - Nueva Generación Cooperativa</title>
+    <meta name="description" content="Programa Coocique NG - Formamos líderes para la nueva generación cooperativa. Descubre experiencias únicas y sé parte del cambio.">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo-section">
+                    <div class="logo">
+                        <span>NG</span>
+                    </div>
+                    <h1 class="logo-text">Coocique NG</h1>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="#sobre-ng" class="nav-link">Sobre NG</a>
+                    <a href="#actividades" class="nav-link">Actividades</a>
+                    <a href="#talleres" class="nav-link">Talleres</a>
+                    <a href="#unete" class="nav-link">Únete</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </nav>
+
+                <!-- CTA and Mobile Menu -->
+                <div class="header-actions">
+                    <button class="cta-button desktop-only">Hazte miembro</button>
+                    <button class="mobile-menu-btn mobile-only" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <nav class="mobile-nav">
+                <a href="#inicio" class="mobile-nav-link">Inicio</a>
+                <a href="#sobre-ng" class="mobile-nav-link">Sobre NG</a>
+                <a href="#actividades" class="mobile-nav-link">Actividades</a>
+                <a href="#talleres" class="mobile-nav-link">Talleres</a>
+                <a href="#unete" class="mobile-nav-link">Únete</a>
+                <a href="#contacto" class="mobile-nav-link">Contacto</a>
+                <button class="cta-button mobile-cta">Hazte miembro</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="inicio" class="hero-section">
+            <div class="container">
+                <div class="hero-grid">
+                    <!-- Content -->
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            <span class="text-primary">Coocique NG</span> –<br />
+                            <span class="gradient-text">Formamos líderes</span><br />
+                            para la nueva generación
+                        </h1>
+                        
+                        <p class="hero-description">
+                            Descubre experiencias únicas, aprende valores cooperativos fundamentales 
+                            y sé parte del cambio que transformará el futuro de nuestra comunidad.
+                        </p>
+
+                        <!-- CTA Buttons -->
+                        <div class="hero-buttons">
+                            <button class="btn-primary">Únete ahora</button>
+                            <button class="btn-outline">Conoce más</button>
+                        </div>
+
+                        <!-- Stats -->
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-number text-primary">500+</div>
+                                <div class="stat-label">Jóvenes activos</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number text-secondary">50+</div>
+                                <div class="stat-label">Actividades anuales</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number text-yellow">15</div>
+                                <div class="stat-label">Años de experiencia</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero Image -->
+                    <div class="hero-image-container">
+                        <div class="hero-image-wrapper">
+                            <img 
+                                src="https://images.unsplash.com/photo-1690378820474-b468b8ee64d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMHBlb3BsZSUyMGNvbGxhYm9yYXRpb24lMjB0ZWFtd29ya3xlbnwxfHx8fDE3NTY2OTQyNzd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                                alt="Jóvenes participando en actividades cooperativas"
+                                class="hero-image"
+                            />
+                            <div class="hero-image-overlay"></div>
+                        </div>
+                        
+                        <!-- Floating cards -->
+                        <div class="floating-card left">
+                            <div class="card-title">¡Nuevo!</div>
+                            <div class="card-subtitle">Retos Digitales</div>
+                        </div>
+                        
+                        <div class="floating-card right">
+                            <div class="card-title">100% Gratis</div>
+                            <div class="card-subtitle">Para todos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="sobre-ng" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        Sobre <span class="text-primary">Coocique NG</span>
+                    </h2>
+                    <p class="section-description">
+                        Somos un programa innovador que forma a la nueva generación de líderes cooperativos, 
+                        combinando tradición y modernidad para construir un futuro mejor.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon primary">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Comunidad</h3>
+                        <p>Formamos parte de una gran familia cooperativa donde todos crecemos juntos.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon secondary">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Formación</h3>
+                        <p>Desarrollamos habilidades técnicas y valores humanos para líderes del futuro.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon yellow">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Innovación</h3>
+                        <p>Utilizamos metodologías modernas y tecnología para potenciar el aprendizaje.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section id="actividades" class="activities-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        Nuestras <span class="text-secondary">Actividades</span>
+                    </h2>
+                    <p class="section-description">
+                        Participamos en diversas actividades que fortalecen nuestro crecimiento personal y profesional.
+                    </p>
+                </div>
+
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <div class="activity-image">
+                            <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b3Jrc2hvcCUyMHRlYW0lMjBsZWFybmluZ3xlbnwxfHx8fDE3NTY2OTQyNzd8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Talleres de Liderazgo">
+                            <div class="activity-overlay">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Talleres de Liderazgo</h3>
+                            <p>Desarrollamos habilidades de liderazgo juvenil y comunicación efectiva.</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-image">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHBsYW5uaW5nJTIwdGVhbXxlbnwxfHx8fDE3NTY2OTQyNzd8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Emprendimiento Cooperativo">
+                            <div class="activity-overlay">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Emprendimiento Cooperativo</h3>
+                            <p>Creamos y desarrollamos proyectos innovadores con impacto social.</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-image">
+                            <img src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjB2b2x1bnRlZXJ8ZW58MXx8fHwxNzU2Njk0Mjc3fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Proyectos Sociales">
+                            <div class="activity-overlay">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="activity-content">
+                            <h3>Proyectos Sociales</h3>
+                            <p>Contribuimos al desarrollo sostenible de nuestras comunidades.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Talleres Section -->
+        <section id="talleres" class="workshops-section">
+            <div class="container">
+                <!-- Header -->
+                <div class="section-header">
+                    <h2 class="section-title">
+                        Talleres <span class="text-primary">Especializados</span>
+                    </h2>
+                    <p class="section-description">
+                        Nuestra malla curricular está diseñada para formar líderes cooperativos integrales 
+                        a través de un programa estructurado en 5 bloques temáticos.
+                    </p>
+
+                    <!-- Search Section -->
+                    <div class="search-container">
+                        <h3>Consulta tu Progreso Académico</h3>
+                        <div class="search-form">
+                            <input 
+                                type="text" 
+                                id="cedulaInput" 
+                                placeholder="Ingresa tu número de cédula (ej: 1-2345-6789)"
+                                class="search-input"
+                            />
+                            <button id="searchBtn" class="search-button">
+                                <i class="fas fa-search"></i>
+                                Buscar
+                            </button>
+                        </div>
+                        <div id="searchError" class="search-error" style="display: none;">
+                            No se encontró información para la cédula ingresada
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student Info -->
+                <div id="studentInfo" class="student-info" style="display: none;">
+                    <div class="student-card">
+                        <div class="student-header">
+                            <div class="student-details">
+                                <h3 id="studentName"></h3>
+                                <p id="studentData"></p>
+                            </div>
+                            <div class="student-progress">
+                                <div id="progressPercentage" class="progress-number">0%</div>
+                                <div class="progress-label">Completado</div>
+                            </div>
+                        </div>
+                        <div class="student-content">
+                            <div class="stats-grid">
+                                <div class="stat-box completed">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div id="completedCount" class="stat-number">0</div>
+                                    <div class="stat-label">Cursos Completados</div>
+                                </div>
+                                <div class="stat-box current">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div id="currentCount" class="stat-number">0</div>
+                                    <div class="stat-label">Cursos Actuales</div>
+                                </div>
+                                <div class="stat-box pending">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-book-open"></i>
+                                    </div>
+                                    <div id="pendingCount" class="stat-number">0</div>
+                                    <div class="stat-label">Cursos Pendientes</div>
+                                </div>
+                            </div>
+                            <div class="progress-bar-container">
+                                <div id="progressBar" class="progress-bar">
+                                    <div id="progressFill" class="progress-fill" style="width: 0%"></div>
+                                </div>
+                                <p class="progress-text">Progreso general en la malla curricular</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curriculum Grid -->
+                <div id="curriculumGrid" class="curriculum-grid">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+
+                <!-- Additional Info -->
+                <div class="program-info">
+                    <div class="program-header">
+                        <h3>Información del Programa</h3>
+                        <p>
+                            Nuestro programa de talleres especializados está diseñado para ser completado 
+                            en un período de 12 meses, con una modalidad mixta que combina sesiones presenciales 
+                            y actividades prácticas.
+                        </p>
+                    </div>
+                    
+                    <div class="program-stats">
+                        <div class="program-stat">
+                            <div class="program-icon primary">📚</div>
+                            <h4>10 Cursos</h4>
+                            <p>Distribuidos en 5 bloques temáticos</p>
+                        </div>
+                        
+                        <div class="program-stat">
+                            <div class="program-icon secondary">⏱️</div>
+                            <h4>385 Horas</h4>
+                            <p>Total de formación académica</p>
+                        </div>
+                        
+                        <div class="program-stat">
+                            <div class="program-icon yellow">🏆</div>
+                            <h4>Certificación</h4>
+                            <p>Reconocimiento oficial al completar</p>
+                        </div>
+                        
+                        <div class="program-stat">
+                            <div class="program-icon green">🌟</div>
+                            <h4>100% Gratis</h4>
+                            <p>Sin costo para miembros de Coocique NG</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Demo Users -->
+                <div class="demo-users">
+                    <h4>🔍 Prueba el sistema con estas cédulas de demostración:</h4>
+                    <div class="demo-badges">
+                        <button class="demo-badge" onclick="setDemoUser('1-2345-6789')">
+                            1-2345-6789 (María González)
+                        </button>
+                        <button class="demo-badge" onclick="setDemoUser('9-8765-4321')">
+                            9-8765-4321 (Carlos Méndez)
+                        </button>
+                        <button class="demo-badge" onclick="setDemoUser('4-5678-9123')">
+                            4-5678-9123 (Ana Lucía Herrera)
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-content">
+                        <h2 class="section-title">
+                            <span class="text-primary">Contáctanos</span>
+                        </h2>
+                        <p class="section-description">
+                            ¿Tienes preguntas o quieres formar parte de Coocique NG? 
+                            Estamos aquí para ayudarte en tu camino hacia el liderazgo cooperativo.
+                        </p>
+                        
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>San José, Costa Rica</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+506 2234-5678</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>info@coociqueng.cr</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Section -->
+        <section id="unete" class="social-section">
+            <div class="container">
+                <div class="social-content">
+                    <h2 class="section-title text-white">
+                        Síguenos en <span class="text-yellow">Redes Sociales</span>
+                    </h2>
+                    <p class="section-description text-white">
+                        Mantente al día con todas nuestras actividades, eventos y logros de la comunidad Coocique NG.
+                    </p>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="#" class="social-link instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" class="social-link youtube">
+                            <i class="fab fa-youtube"></i>
+                            <span>YouTube</span>
+                        </a>
+                        <a href="#" class="social-link whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo">
+                            <span>NG</span>
+                        </div>
+                        <h3>Coocique NG</h3>
+                    </div>
+                    <p>Formamos líderes para la nueva generación cooperativa, combinando tradición y modernidad.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-ng">Sobre NG</a></li>
+                        <li><a href="#actividades">Actividades</a></li>
+                        <li><a href="#talleres">Talleres</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> San José, Costa Rica</li>
+                        <li><i class="fas fa-phone"></i> +506 2234-5678</li>
+                        <li><i class="fas fa-envelope"></i> info@coociqueng.cr</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Coocique NG. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/workshops.js"></script>
+</body>
+</html>
