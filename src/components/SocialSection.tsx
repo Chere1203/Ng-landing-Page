@@ -6,14 +6,14 @@ export default function SocialSection() {
     {
       name: "Facebook",
       icon: Facebook,
-      url: "#",
+      url: "https://www.facebook.com/CoociqueNG",
       color: "bg-blue-600 hover:bg-blue-700",
       followers: "12.5K"
     },
     {
       name: "Instagram",
       icon: Instagram,
-      url: "#",
+      url: "https://www.instagram.com/coociqueng/#",
       color: "bg-gradient-to-br from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700",
       followers: "8.3K"
     },
