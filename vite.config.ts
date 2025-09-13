@@ -7,12 +7,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      'sonner@2.0.3': 'sonner',         // ← clave
-      // agrega más si aparecen errores similares:
-      // 'lucide-react@0.487.0': 'lucide-react',
-      // 'recharts@2.15.2': 'recharts',
-      '@': path.resolve(__dirname, './src'),
-    },
+      '@': path.resolve(__dirname, './src')
+    }
   },
   build: { target: 'esnext', outDir: 'dist' },
 })
