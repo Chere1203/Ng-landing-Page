@@ -7,30 +7,30 @@ export default function ActivitiesSection() {
   const activities = [
     {
       icon: Mountain,
-      title: "Coocique Aventura",
+      title: "Galeria De Fotos",
       description: "Expediciones y actividades al aire libre que fortalecen el trabajo en equipo y el liderazgo a través de experiencias únicas en la naturaleza.",
-      image: "/Imagen1.jpg",
+      image: "/Ng-landing-Page/Imagen1.jpg",
       color: "from-primary to-primary/80"
     },
     {
       icon: Wrench,
       title: "Talleres Especializados",
       description: "Workshops prácticos sobre cooperativismo, emprendimiento social, y desarrollo de habilidades blandas para el crecimiento personal.",
-      image: "https://images.unsplash.com/photo-1660795469319-9956a233a54d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsZWFkZXJzaGlwJTIwd29ya3Nob3AlMjB5b3V0aHxlbnwxfHx8fDE3NTY2OTQyNzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/Ng-landing-Page/Imagen2.jpg",
       color: "from-secondary to-secondary/80"
     },
     {
       icon: Calendar,
       title: "Próximos Eventos",
       description: "Únete a nuestros eventos especiales, talleres y actividades diseñadas para fortalecer la comunidad cooperativa juvenil.",
-      image: "https://images.unsplash.com/photo-1703300450387-047da16a89c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMHBlb3BsZSUyMGV2ZW50cyUyMGNhbGVuZGFyfGVufDF8fHx8MTc1NzM3MDA1Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/Ng-landing-Page/ProxEven.jpg",
       color: "from-yellow-400 to-yellow-500"
     },
     {
       icon: Gift,
       title: "Sorteos y Premios",
       description: "Reconocimientos y incentivos para participantes destacados, incluyendo becas de estudio y oportunidades de desarrollo profesional.",
-      image: "https://images.unsplash.com/photo-1710093072218-0024b8391475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXN0YWluYWJpbGl0eSUyMGVkdWNhdGlvbiUyMGNvbW11bml0eXxlbnwxfHx8fDE3NTY2OTQyNzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "/Ng-landing-Page/Eithan.jpg",
       color: "from-green-400 to-green-500"
     }
   ];

@@ -74,13 +74,19 @@ export default function SocialSection() {
                 <p className="text-gray-600 text-sm mb-4">
                   Síguenos para contenido exclusivo
                 </p>
-                <Button 
-                  variant="outline" 
-                  size="sm"
-                  className="group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-colors"
+                <a
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Seguir
-                </Button>
+                  <Button 
+                    variant="outline" 
+                    size="sm"
+                    className="group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-colors"
+                  >
+                    Seguir
+                  </Button>
+                </a>
               </div>
             );
           })}

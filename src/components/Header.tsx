@@ -9,9 +9,11 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <div className="h-10 w-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">NG</span>
-              </div>
+              <img
+                src="/Ng-landing-Page/LogoNG.png"
+                alt="Logo NG"
+                className="h-10 w-10 rounded-lg object-cover"
+              />
             </div>
             <div className="ml-3">
               <h1 className="text-xl font-bold text-gray-900">Coocique NG</h1>
@@ -30,7 +32,7 @@ export default function Header() {
               Actividades
             </a>
             <a href="#aventura" className="text-gray-700 hover:text-primary transition-colors">
-              Aventura
+              Fotos
             </a>
             <a href="#eventos" className="text-gray-700 hover:text-primary transition-colors">
               Eventos

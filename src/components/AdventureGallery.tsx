@@ -12,102 +12,70 @@ export default function AdventureGallery() {
   const adventures = [
     {
       id: 1,
-      title: "Expedición Monte Verde",
-      location: "Monteverde, Puntarenas",
+      title: "Rally NG",
+      location: "Colegio agropecuario",
       date: "Octubre 2024",
       participants: 25,
       category: "senderismo",
-      description: "Una aventura inolvidable explorando los senderos nubosos de Monteverde, fortaleciendo vínculos y desarrollando liderazgo.",
-      image: "/Imagen1.jpg",
+      description: "Una aventura inolvidable explorando los senderos del colegio agropecuario, fortaleciendo vínculos y desarrollando liderazgo.",
+      image: "/Ng-landing-Page/Imagen1.jpg",
       tags: ["Senderismo", "Naturaleza", "Trabajo en equipo"]
     },
     {
       id: 2,
-      title: "Rafting Río Pacuare",
-      location: "Río Pacuare, Cartago",
+      title: "Actividad dia del Niño",
+      location: "Villa fantasia, Orotina",
       date: "Septiembre 2024",
       participants: 18,
       category: "deportes",
-      description: "Descenso en rafting por las emocionantes aguas del Pacuare, una experiencia que puso a prueba nuestro espíritu aventurero.",
-      image: "https://images.unsplash.com/photo-1641584495061-89b9025f563b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyYWZ0aW5nJTIwd2hpdGUlMjB3YXRlciUyMGFkdmVudHVyZXxlbnwxfHx8fDE3NTczNDMyMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Rafting", "Aventura", "Adrenalina"]
+      description: "Celebramos el día del niño con una emocionante actividad en las aguas, promoviendo la cooperación y la diversión.",
+      image: "/Ng-landing-Page/ActDiaNiño.jpg",
+      tags: ["Aguas", "Aventura", "Adrenalina"]
     },
     {
       id: 3,
-      title: "Campamento Volcán Arenal",
-      location: "La Fortuna, Alajuela",
+      title: "Rally Coop",
+      location: "Montaña Sagrada",
       date: "Agosto 2024",
       participants: 32,
-      category: "campamento",
-      description: "Tres días de campamento bajo las estrellas cerca del majestuoso Volcán Arenal, compartiendo historias y lecciones de vida.",
-      image: "https://images.unsplash.com/photo-1560356575-413d30aba6d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYW1waW5nJTIwZmlyZSUyMGdyb3VwJTIwbmlnaHR8ZW58MXx8fHwxNzU3MzQzMjEwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Campamento", "Volcán", "Naturaleza"]
+      category: "Rally",
+      description: "Intenso Rally al rededor de la montaña sagrada, poniendo a prueba nuestras habilidades de cooperación y resistencia.",
+      image: "/Ng-landing-Page/RallyCoop.jpg",
+      tags: ["Rally", "Montaña", "Naturaleza"]
     },
     {
       id: 4,
-      title: "Surf en Tamarindo",
-      location: "Tamarindo, Guanacaste",
+      title: "Cumpleaños NG",
+      location: "La bombora, Ciudad Quesada",
       date: "Julio 2024",
       participants: 20,
       category: "deportes",
-      description: "Aprendimos a surfear las olas del Pacífico mientras fortalecíamos nuestros valores cooperativos en la playa.",
-      image: "https://images.unsplash.com/photo-1715449187009-3838a52ef2df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXJmaW5nJTIwZ3JvdXAlMjBiZWFjaCUyMHdhdmVzfGVufDF8fHx8MTc1NzM0MzIxM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Surf", "Playa", "Deportes acuáticos"]
+      description: "Celebramos nuestro aniversario con una gran fiesta llena de actividades, juegos y momentos inolvidables.",
+      image: "/Ng-landing-Page/CumpleañosNG.jpg",
+      tags: ["Cumpleaños", "Fiesta", "Juegos"]
     },
     {
       id: 5,
-      title: "Canopy en Manuel Antonio",
-      location: "Manuel Antonio, Puntarenas",
+      title: "Lab NG",
+      location: "Campamento Oikumene, Cartago",
       date: "Junio 2024",
       participants: 15,
-      category: "aventura",
-      description: "Volamos entre las copas de los árboles del Parque Nacional Manuel Antonio, una experiencia que nos conectó con la naturaleza.",
-      image: "https://images.unsplash.com/photo-1640895236626-6435d5205789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx6aXBsaW5lJTIwY2Fub3B5JTIwZm9yZXN0JTIwYWR2ZW50dXJlfGVufDF8fHx8MTc1NzM0MzIxOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Canopy", "Aventura", "Bosque"]
+      category: "Capacitación",
+      description: "Capacitacion impartida por Cenecoop hacia nuestros lideres juveniles en temas cooperativos y de liderazgo.",
+      image: "/Ng-landing-Page/LabNG.jpg",
+      tags: ["Capacitacion", "Aventura", "Liderazgo"]
+
     },
     {
       id: 6,
-      title: "Buceo en Isla del Coco",
-      location: "Isla del Coco, Puntarenas",
+      title: "Dia de Abuelos y nietos",
+      location: "Campamento Oikumene, Cartago",
       date: "Mayo 2024",
       participants: 12,
-      category: "deportes",
-      description: "Una expedición submarina única explorando la biodiversidad marina de la Isla del Coco, patrimonio de la humanidad.",
-      image: "https://images.unsplash.com/photo-1682957205538-7ba9957b01a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaXZpbmclMjB1bmRlcndhdGVyJTIwb2NlYW4lMjBncm91cHxlbnwxfHx8fDE3NTczNDMyMjJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Buceo", "Océano", "Biodiversidad"]
-    },
-    {
-      id: 7,
-      title: "Escalada en Cerro Chirripó",
-      location: "Chirripó, San Gerardo de Rivas",
-      date: "Abril 2024",
-      participants: 22,
-      category: "senderismo",
-      description: "Conquistamos la cima más alta de Costa Rica, una experiencia que nos enseñó sobre perseverancia y trabajo en equipo.",
-      image: "https://images.unsplash.com/photo-1604766038176-736d6d72d652?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGNsaW1iaW5nJTIwcm9jayUyMGFkdmVudHVyZXxlbnwxfHx8fDE3NTczNDMyMjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Escalada", "Montaña", "Perseverancia"]
-    },
-    {
-      id: 8,
-      title: "Kayak en Tortuguero",
-      location: "Tortuguero, Limón",
-      date: "Marzo 2024",
-      participants: 16,
-      category: "aventura",
-      description: "Navegamos por los canales de Tortuguero observando la increíble fauna local y aprendiendo sobre conservación.",
-      image: "https://images.unsplash.com/photo-1745853707144-da72615a8c19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxrYXlha2luZyUyMHJpdmVyJTIwbmF0dXJlJTIwZ3JvdXB8ZW58MXx8fHwxNzU3MzQzMjMxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Kayak", "Canales", "Conservación"]
-    },
-    {
-      id: 9,
-      title: "Tirolesa en la Península de Osa",
-      location: "Península de Osa, Puntarenas",
-      date: "Febrero 2024",
-      participants: 19,
-      category: "aventura",
-      description: "Experiencia única volando sobre el bosque lluvioso tropical más biodiverso del país.",
-      image: "https://images.unsplash.com/photo-1753672036597-315a534d164e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx6aXBsaW5lJTIwZm9yZXN0JTIwY2Fub3B5JTIwdG91cnxlbnwxfHx8fDE3NTczNDMyMzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Tirolesa", "Bosque lluvioso", "Biodiversidad"]
+      category: "Diversion",
+      description: "Celbramos un dia lleno de diversion y actividades con nuestros abuelos y nietos.",
+      image: "/Ng-landing-Page/AbuelosYNietos.jpg",
+      tags: ["Diversion", "Familia", "Actividades"]
     }
   ];
 

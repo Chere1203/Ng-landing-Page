@@ -59,7 +59,7 @@ export default function HeroSection() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="/Imagen2.jpg"
+                src="/Ng-landing-Page/LabNG.jpg"
                 alt="Jóvenes participando en actividades cooperativas"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
               />
